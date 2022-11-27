@@ -28,7 +28,7 @@ cmake --build
 - рабочая область
 - область с подсказками для пользователя
 
-![image_1](https://raw.githubusercontent.com/Green-Rock/terminal-text-editor/main/image/image_1.png)
+![image_1](https://raw.githubusercontent.com/Green-Rock/terminal-text-editor/main/image/image_3.png)
 
 
 
@@ -44,7 +44,7 @@ cmake --build
 - При нажатии клавиши `F3` выделенный блок текста копируется. Скопированный блок может быть многократно вставлен в разные места текста.
 - При нажатии клавиши `F4` включается режим выделения текста. Блок начинается со строки, в которой впервые была нажата клавиша `F4` и заканчивается там, где была нажата клавиша `F3` или `F4`. Стрелки вправо и влево выделяют текст посимвольно. Стрелки вверх и вниз позволяют выделять текст построчно, на строку вверх и вниз от курсора соответственно.
 
-![image_2](https://raw.githubusercontent.com/Green-Rock/terminal-text-editor/main/image/image_2.png)
+![image_2](https://raw.githubusercontent.com/Green-Rock/terminal-text-editor/main/image/image_4.png)
 
 - При нажатии клавиши `F5` скопированный блок вставляется в текст в позицию курсора.
 - При нажатии клавиши `F6` программа завершит свою работу.
