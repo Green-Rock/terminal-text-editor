@@ -5,7 +5,6 @@
 #include "line.h"
 
 
-// void specialnye_klavishi(int kod);
 void special_keys(int code) {
     switch(code)
    {
@@ -39,7 +38,6 @@ void special_keys(int code) {
    }
 }
 
-// void backspace();
 void backspace()
 {
    if ((cursor_x == 1 && (cursor_y == 2 || enter_name)) || selection_mode)
@@ -74,7 +72,6 @@ void backspace()
    }
 }
 
-// void enter();
 void enter()
 {
    if (selection_mode)
@@ -102,7 +99,6 @@ void enter()
    cursor_x = 1;
 }
 
-// void strelka_vverh();
 void up_key()
 {
    if (cursor_y != 2 && !enter_name)
@@ -116,7 +112,6 @@ void up_key()
    }
 }
 
-// void strelka_vniz();
 void down_key()
 {
    if (cursor_y - 1 != quantity_rows && !enter_name)
@@ -130,7 +125,6 @@ void down_key()
    }
 }
 
-// void strelka_vlevo();
 void left_key()
 {
    if (cursor_x == 1)
@@ -149,7 +143,6 @@ void left_key()
    }
 }
 
-// void strelka_vpravo();
 void right_key()
 {
    if (cursor_x == text[cursor_y].size + 1)

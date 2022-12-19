@@ -35,11 +35,8 @@ const char *information_for_user[7] = {
    "F6 - Выход"
 };
 
-// void obnovlenie_okna();
 void update_window();
-// void interfejs();
 void interface();
-// void ochistka_okna();
 void window_cleaning();
 
 #endif

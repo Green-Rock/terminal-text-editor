@@ -2,7 +2,6 @@
 #include "window.h"
 #include "text.h"
 
-// void obnovlenie_okna();
 void update_window()
 {
     if (enter_name)
@@ -44,8 +43,6 @@ void update_window()
     puttext(6, 1, WIDTH, 1, &file_info);
 }
 
-
-// void interfejs();
 void interface()
 {
     textbackground(BLACK);
@@ -70,7 +67,6 @@ void interface()
     gotoxy(cursor_x, cursor_y);
 }
 
-// void ochistka_okna();
 void window_cleaning()
 {
     for (int i = 2; i < SIZE; i++)

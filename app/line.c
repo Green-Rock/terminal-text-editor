@@ -3,7 +3,6 @@
 #include "window.h"
 #include "text.h"
 
-// void udalenie_simvolov();
 void delete_character()
 {
     for (int i = cursor_x - 1; i <= text[cursor_y].size; i++)
@@ -15,7 +14,6 @@ void delete_character()
     cursor_x--;
 }
 
-// void sdvig_strok_vverh();
 void shift_row_up()
 {
     for (int i = cursor_y + 2; i <= quantity_rows + 1; i++)
@@ -29,7 +27,6 @@ void shift_row_up()
    }
 }
 
-// void sdvig_strok_vniz();
 void shift_row_down()
 {
     for (int i = quantity_rows + 1; i > cursor_y; i--)
@@ -43,7 +40,6 @@ void shift_row_down()
    }
 }
 
-// void vvod_simvolov(int kod);
 void enter_character(int code)
 {
     for (int i = text[cursor_y].size; i >= cursor_x; i--)
@@ -63,7 +59,6 @@ void swap(int *a, int *b)
     *b = temp;
 }
 
-// void kopirovat();
 void copy_line()
 {
     if (!selection_mode)
@@ -104,7 +99,6 @@ void copy_line()
     selection_mode = 0;
 }
 
-// void vvod_imeni_fajla();
 void enter_file_name()
 {
     if (enter_name)

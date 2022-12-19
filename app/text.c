@@ -5,7 +5,6 @@
 #include "line.h"
 #include "keys.h"
 
-//void prokrutka_teksta();
 void scroll_text()
 {
     if (cursor_x > WIDTH)
@@ -27,7 +26,6 @@ void scroll_text()
     }
 }
 
-//void vydelenie_teksta(int i, int j);
 void text_selection(int i, int j)
 {
     if (copy_x == cursor_x && copy_y == cursor_y)
@@ -41,7 +39,6 @@ void text_selection(int i, int j)
     }
 }
 
-//void vstavit();
 void insert_line()
 {
     for (int i = 0; i < copy_size; i++)
@@ -60,7 +57,6 @@ void insert_line()
     }
 }
 
-//void otkrytie_fajla();
 void open_file()
 {
     unsigned char character;
@@ -95,7 +91,6 @@ void open_file()
     fclose(file);
 }
 
-//void sohranenie_fajla();
 void save_file()
 {
     FILE *file = fopen(file_name, "w");
