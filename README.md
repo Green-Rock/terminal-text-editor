@@ -1,5 +1,11 @@
 # Консольный текстовый редактор
 
+[Архитектура](https://github.com/Green-Rock/terminal-text-editor/blob/main/docs/architecture.md)
+
+[Процессы](https://github.com/Green-Rock/terminal-text-editor/blob/main/docs/process.md)
+
+[Команда](https://github.com/Green-Rock/terminal-text-editor/blob/main/docs/team.md)
+
 Редактор имеет следующие возможности:
 
 - ввод текста
